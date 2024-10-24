@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6f9425d2547e78a42a9d4334aba8158f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 202468
+  packageName: Tanknarok Multiplayer - Photon Fusion
+  packageVersion: 2.0.1
+  assetPath: Assets/Prefabs/Shots/UI/ScoreGameUI.prefab
+  uploadId: 640117

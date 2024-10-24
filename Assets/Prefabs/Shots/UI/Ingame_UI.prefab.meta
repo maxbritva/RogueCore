@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 08ffdfb6bd06b604885c3ebb802d5f16
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 202468
+  packageName: Tanknarok Multiplayer - Photon Fusion
+  packageVersion: 2.0.1
+  assetPath: Assets/Prefabs/Shots/UI/Ingame_UI.prefab
+  uploadId: 640117
