@@ -14,7 +14,7 @@ namespace Game.UI
         {
             GameObject damageText = _textPool.GetFromPool();
             damageText.transform.SetParent(transform);
-            damageText.transform.position = target.position + GetNewRandomPosition();
+          //  damageText.transform.position = target.position + GetNewRandomPosition();
             if (damageText.TryGetComponent(out TextMeshPro TMP))
             {
                 TMP.text = damage.ToString();
@@ -23,8 +23,8 @@ namespace Game.UI
                 StartCoroutine(FadeAnimation(TMP, damageText));
             }
         }
-        private Vector3 GetNewRandomPosition() => 
-            new(Random.Range(-0.5f, 0.5f), 4f, Random.Range(-0.5f, 0.5f));
+        // private Vector3 GetNewRandomPosition() => 
+        //     new(Random.Range(-0.5f, 0.5f), 4f, Random.Range(-0.5f, 0.5f));
 
         private IEnumerator FadeAnimation(TextMeshPro text, GameObject targetEffect)
         {

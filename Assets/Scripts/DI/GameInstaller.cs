@@ -10,7 +10,6 @@ namespace DI
     public class GameInstaller: MonoInstaller
     {
         [SerializeField] private GameEntryPoint _gameEntryPoint;
-        [SerializeField] private PlayerController _playerController;
         [SerializeField] private GameTimer _gameTimer;
         [SerializeField] private LevelSystem _levelSystem;
         [SerializeField] private DamageTextSpawner _damageTextSpawner;
@@ -24,7 +23,7 @@ namespace DI
             Container.Bind<ShakeCamera>().FromInstance(_shakeCamera).AsSingle().NonLazy();
             Container.Bind<DamageTextSpawner>().FromInstance(_damageTextSpawner).AsSingle().NonLazy();
             Container.Bind<DestroyEffectSpawner>().FromInstance(_destroyEffectSpawner).AsSingle().NonLazy();
-            Container.BindInterfacesAndSelfTo<PlayerController>().FromInstance(_playerController).AsSingle().NonLazy();
+            //Container.BindInterfacesAndSelfTo<PlayerController>().FromInstance(_playerController).AsSingle().NonLazy();
         }
     }
 }

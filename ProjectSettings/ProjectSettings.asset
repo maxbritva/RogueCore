@@ -164,7 +164,7 @@ PlayerSettings:
   androidMinAspectRatio: 1
   applicationIdentifier:
     Android: com.PhotonEngine.TanknarokFusionDemo
-    Standalone: com.PhotonEngine.Tanknarok-Fusion-Demo
+    Standalone: com.DefaultCompany.RogueCore
     iPhone: com.PhotonEngine.Tanknarok-Fusion-Demo
   buildNumber:
     Standalone: 0
